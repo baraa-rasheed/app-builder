@@ -214,6 +214,10 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
     `${projectPrefix}android/app`,
     true
   );
+  await fs.rm(`${projectPrefix}ios/bitesnbags/Images.xcassets`, {
+    recursive: true,
+    force: true,
+  });
   await copyDirectory(
     path.join(restaurantDir, "ios"),
     `${projectPrefix}ios/bitesnbags/Images.xcassets`,

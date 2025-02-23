@@ -259,7 +259,7 @@ export const action = async ({
 
     await fs.writeFile(filePath, JSON.stringify(fileContent, null, 2));
 
-    await updateProjectToRestaurant(restaurantData)
+    await updateProjectToRestaurant(restaurantData);
 
     return { success: true, newRestaurant: restaurantData };
   } catch (error) {
@@ -589,21 +589,20 @@ const Home: React.FC = () => {
   };
 
   useEffect(() => {
-    if (actionData?.success) {
-      if (actionData.newRestaurant) {
+    if (actionData?.success && submissionStatus !== "success") {
+      if (actionData.newRestaurant && selectedRestaurantRefId !== actionData.newRestaurant.refId) {
         navigate(`/?selected=${actionData.newRestaurant.refId}`);
-      }
-      if (submissionStatus === "submitting") {
+      } else if (submissionStatus === "submitting") {
         setSubmissionStatus("success");
         setShowSuccessModal(true);
       }
     } else if (actionData?.error && submissionStatus === "submitting") {
       setSubmissionStatus("error");
     }
-  }, [actionData, submissionStatus, navigate]);
+  }, [actionData, submissionStatus, navigate, selectedRestaurantRefId]);
 
   useEffect(() => {
-    if (initialSelected) {
+    if (initialSelected && initialSelected.refId !== selectedRestaurantRefId) {
       setSelectedRestaurantRefId(initialSelected.refId);
       setConfig(initialSelected.config);
       setIosAppIcons(initialSelected.assets.iosAppIcons);
@@ -612,7 +611,7 @@ const Home: React.FC = () => {
       setAndroidRes(initialSelected.assets.androidRes);
       setGoogleServices(initialSelected.assets.googleServices);
     }
-  }, [initialSelected]);
+  }, [initialSelected, selectedRestaurantRefId]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -792,15 +791,19 @@ const Home: React.FC = () => {
 
   const handleRestaurantChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const refId = e.target.value;
-    setSelectedRestaurantRefId(refId);
-    navigate(refId ? `/?selected=${refId}` : "/");
+    if (refId !== selectedRestaurantRefId) {
+      setSelectedRestaurantRefId(refId);
+      navigate(refId ? `/?selected=${refId}` : "/");
+    }
   };
 
   const handleRestaurantAdd = (newRestaurant: Restaurant) => {
-    setSelectedRestaurantRefId(newRestaurant.refId);
-    setConfig(newRestaurant.config);
-    resetAssets();
-    navigate(`/?selected=${newRestaurant.refId}`);
+    if (newRestaurant.refId !== selectedRestaurantRefId) {
+      setSelectedRestaurantRefId(newRestaurant.refId);
+      setConfig(newRestaurant.config);
+      resetAssets();
+      navigate(`/?selected=${newRestaurant.refId}`);
+    }
   };
 
   return (
