@@ -1,5 +1,5 @@
-import { promises as fs } from "fs";
 import path from "path";
+import { promises as fs } from "fs";
 const projectPrefix = `bitesnbagsMainApp/`;
 
 interface AppConfig {
@@ -114,6 +114,12 @@ const getCurrentRestaurant = async (): Promise<Restaurant> => {
   }
 };
 
+const getApiUrl = (environment: "staging" | "live") => {
+  return environment === "staging"
+    ? "https://stg.bitesnbags.com"
+    : "https://bitesnbags.com";
+};
+
 // Main function to update the project for a specific restaurant
 export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
   const {
@@ -121,6 +127,7 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
       appName,
       apiRefId,
       pusherId,
+      environment,
       applePayLabel,
       googlePayMerchant,
       ios: { bundleId: iosBundleId },
@@ -143,6 +150,11 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
       file: `${projectPrefix}src/lib/constants.ts`,
       old: currentRestaurant.config.pusherId,
       new: pusherId,
+    },
+    {
+      file: `${projectPrefix}src/lib/constants.ts`,
+      old: getApiUrl(currentRestaurant.config.environment),
+      new: getApiUrl(environment),
     },
     {
       file: `${projectPrefix}src/lib/hooks/useApplePay.ts`,
@@ -198,7 +210,7 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
     true
   );
   await copyDirectory(
-    path.join(restaurantDir, "android"),
+    path.join(restaurantDir, "android/json"),
     `${projectPrefix}android/app`,
     true
   );
