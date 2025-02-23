@@ -1,0 +1,380 @@
+{
+  "project_info": {
+    "project_number": "272477251764",
+    "project_id": "bnb-summer-2021-apps",
+    "storage_bucket": "bnb-summer-2021-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:4252884b81025256314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.bash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:c148df4ad561900f314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.cheese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:6d6da5a0ca625e1b314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.letsmeatjo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:fe5d3e78b7a82a80314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.luigispizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:de14c868029435cf314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.mashakeek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:ccfd3c2730bdf8a5314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.millies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:57e0ff21242157bc314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.opizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:859976e86c2871e7314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.robo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:3fb55b96ededac32314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.skandinavys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272477251764:android:85ce0c49a202d010314fe1",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.thecakery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqMeqfQinr8mdvnc6BF9O1ekPsjbsM8nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272477251764-krhrcg9p34nd74921n29no12egnlth84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272477251764-70vbhvkn1d7t13mpuvg97h7accctpoum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.thecakery",
+                "app_store_id": "1585983688"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

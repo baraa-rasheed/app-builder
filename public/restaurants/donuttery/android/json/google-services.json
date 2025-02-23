@@ -1,0 +1,406 @@
+{
+  "project_info": {
+    "project_number": "656908884718",
+    "project_id": "summer-2023-6cc03",
+    "storage_bucket": "summer-2023-6cc03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:3b8a84eaa0898c4b6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.chezhilda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:3bfb30e6f89d9ced6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.donuttery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:f48080adb74a9ac16571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.eaters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:744b3485bb641d646571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.faroojabukareem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:c6d3b3cfcad316fd6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.foodz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:2fa17e2a83739bbf6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.jdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:4a2f4efe37a33d156571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.rays"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:4d49521c792087fa6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.sakura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:f8cebb439e8c90ec6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.tjburger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:c9da5cadfa99f9eb6571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.tntshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656908884718:android:2c1acfb9b5ef73296571ff",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.yazanshawerma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA827cfc0SXJ6Gg1Xd7xFiRwOZtb_wp3kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656908884718-4nefncd3bsc4ktd29a9nm7giphos8oqe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656908884718-34f8og4h2ig5usl7vov02jokgdis9f0e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.faroojabukareem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

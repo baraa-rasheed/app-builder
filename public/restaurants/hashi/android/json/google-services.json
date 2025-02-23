@@ -1,0 +1,343 @@
+{
+  "project_info": {
+    "project_number": "1007765516395",
+    "project_id": "spring-2023-c2de4",
+    "storage_bucket": "spring-2023-c2de4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:081f452568a80aca94012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.angelinas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:1d40275d8bd3f4d794012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.barcelos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:37b656ed3cdadb4794012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.hashi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:13e5d6363a5720ba94012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.pounder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:81d63cdf510d2f0c94012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.qahwablk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:aaea61b0a32a876c94012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.simplyquiche"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:54e5c28e2557137794012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.sushicrazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:2b20b7cbddd4fed394012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.sushicrush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007765516395:android:045c59c9af1e020494012e",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.tikkachicken"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLwq1oqxppEDyfEO8vw_1RmUONpEA2UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007765516395-8o4rfoifuvatop2910j19qogh72g8eli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007765516395-0gk61pduplooesb42ig33rei6oe7k31a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushicrazy",
+                "app_store_id": "1667305877"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

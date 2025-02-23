@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "33058573742",
+    "project_id": "spring-2024-bfa2d",
+    "storage_bucket": "spring-2024-bfa2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33058573742:android:e152566ce14bcfaa588c3f",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.looty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtyqbgv_b8McbFkuXWcUHCBwknaDzxokU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

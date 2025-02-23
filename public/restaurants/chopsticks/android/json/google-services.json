@@ -1,0 +1,868 @@
+{
+  "project_info": {
+    "project_number": "592445562735",
+    "project_id": "bitesnbags",
+    "storage_bucket": "bitesnbags.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:441c1e164af72ce27b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.alban"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:1392afc8a7dbc48f7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.bigslice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:85401b02944a83fb7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.chopsticks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:7c861929c1af9a957b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.cookielisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:7e6b22d13eb523ad7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.crabandmore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:ece3d1ff1ebcc43f7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.ebisushi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:86b7ee436519e95c7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.figtree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:dfbacc22c358b64c7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.foronrex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:c5538637b826e4fa7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.frythebird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:b6b6e515c3e3b4057b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.heavenlyswirls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:3da19c77da86d85c7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.heavenlyswirlss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:59393ab170ca34787b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.ivyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:d2b3580eb68309ad7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.jenkos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:ee9bec1cdc18fdbf7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.minibar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:d63e8560e4cf8d407b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.mlt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:9d6946309840fc287b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.nedspizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:63bb063f3398bfce7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.qahwablk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:58a1f44cf69d88ae7b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.secretscakes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:dffe70c91fea9c737b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.snacknshake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:744e791be5256b697b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.sushiden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:ee7b5d879d7839027b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.wingers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592445562735:android:8e7e0dfc085ef6097b529a",
+        "android_client_info": {
+          "package_name": "com.bitesnbags.yumburgers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78x9mV7fUctkp1tUDVnO7v5dMZyVwyXc"
+        },
+        {
+          "current_key": "AIzaSyDoeaWkTklMXwrzVBr8Lh4r3wHLlXqIMIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592445562735-30om63q2danhd1m20tnqapvvlmm8ebk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592445562735-12cffshb1e4n3rr6sqpcs8p657p5vr8h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitesnbags.sushiden"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
