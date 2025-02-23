@@ -1,0 +1,1039 @@
+{
+  "restaurants": [
+    {
+      "refId": "1",
+      "name": "Millies",
+      "config": {
+        "appName": "Millies",
+        "apiRefId": "Yp5Yx2RqCYhBI6Sx3enIGObpJN6w2W14VYR8yqH6lKCwi5UT6qPNRJ9D56gQdvkN5kLAF8b4rE97Xfc5GZAD9Oldhy",
+        "pusherId": "110775c8-92f0-45e6-ad31-bc63641a1807",
+        "facebookId": "",
+        "applePayLabel": "Millies (via biteME)",
+        "googlePayMerchant": "Millies (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.millies",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.millies",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "2",
+      "name": "Angelinas",
+      "config": {
+        "appName": "Angelina's Oven",
+        "apiRefId": "BdXSZTIuxzlGuk1sW9N7xzy664wCSpzggo0Kgor0Ux04HFoV1leVYLbIg2q4fj1EkwUSjycicb9VcgpZAH1YFwchvj",
+        "pusherId": "50d73e9a-e831-4e3c-af06-a04afc6c2923",
+        "facebookId": "",
+        "applePayLabel": "Angelina's Oven (via biteME)",
+        "googlePayMerchant": "Angelina's Oven (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.angelinas",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.angelinas",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "3",
+      "name": "AlMashreq",
+      "config": {
+        "appName": "AlMashreq Mobile",
+        "apiRefId": "FT1ZlftsK2FRiyR57tQUA2GtLmrPjW8ZC1PcIfo1siXNn1jXohI4c5kSyYd3lTzxCZJA6lBph2xxDyP8O2QWK1Gakh",
+        "pusherId": "32c6d5ba-43ef-4edf-84c1-7296b91c7854",
+        "facebookId": "",
+        "applePayLabel": "AlMashreq Mobile (via biteME)",
+        "googlePayMerchant": "AlMashreq Mobile (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.almashreq",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.almashreq",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "4",
+      "name": "Barcelos",
+      "config": {
+        "appName": "Barcelos",
+        "apiRefId": "SVBhRABVtoz2gXJLZLMTnK6K6Cv4kTcfNKc0MHiloGYUhkye5qRnZS33yWihW9Eqd1aBHpJdlDirYrkGXCSYBbHRT4",
+        "pusherId": "3e762d7d-bf1f-4836-8f87-f351d0edbdba",
+        "facebookId": "",
+        "applePayLabel": "Barcelos (via biteME)",
+        "googlePayMerchant": "Barcelos (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.barcelos",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.barcelos",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "5",
+      "name": "Bagelos",
+      "config": {
+        "appName": "Bagel O's",
+        "apiRefId": "pKYFaA6yOU3QoFsENqGr7RiyHB0kzzdNRU0RuChMLR6j1usVfZIVoGFrFC9C0X7Cdk8V6RXIL71Z3pQEb1SBM7Y97y",
+        "pusherId": "90d593c7-575d-48fa-a6f4-214deb9230b7",
+        "facebookId": "",
+        "applePayLabel": "Bagel O's (via biteME)",
+        "googlePayMerchant": "Bagel O's (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.bagelos",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.bagelos",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "6",
+      "name": "BigSlice",
+      "config": {
+        "appName": "The Big Slice",
+        "apiRefId": "7zbDdKQqoyv6LbU8kp3woCq5YQIYLYiQY3QT5tRIo48AquR8QTxdEvHyWEZUA5R81AV33iNCLOTDfwmunphyjQGIIm",
+        "pusherId": "996ab170-c307-46c3-b4ae-3b0c216a1cbb",
+        "facebookId": "",
+        "applePayLabel": "The Big Slice (via biteME)",
+        "googlePayMerchant": "The Big Slice (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.bigslice",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.bigslice",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "7",
+      "name": "ChezHilda",
+      "config": {
+        "appName": "Chez Hilda",
+        "apiRefId": "rKNgRSKiCQnOLUJuigiyM9ldRp5mHdSaWaGxpcLEMhp3EfhFvfyaXAQl2Gta5uaPb7CPuLteIUuf20VYRxvwasfF1q",
+        "pusherId": "eda9ba89-5581-4edb-87ca-980ddabc0111",
+        "facebookId": "",
+        "applePayLabel": "Chez Hilda (via biteME)",
+        "googlePayMerchant": "Chez Hilda (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.chezhilda",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.chezhilda",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "8",
+      "name": "Chopsticks",
+      "config": {
+        "appName": "Chopsticks & Taj Mahal",
+        "apiRefId": "wY673Y80ZuETEGya9ts2g0bw6jElsnHMe1IFLJX6NoBB2AJiDj3VXGnE4LyLxAHpzwVqh1VBsHECAkhGHqsfnDtwSS",
+        "pusherId": "7d372b8b-bcf3-421d-8d63-f6d07ac551c8",
+        "facebookId": "",
+        "applePayLabel": "Chopsticks & Taj Mahal (via biteME)",
+        "googlePayMerchant": "Chopsticks & Taj Mahal (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.chopsticks",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.chopsticks",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "9",
+      "name": "Donuttery",
+      "config": {
+        "appName": "Donuttery",
+        "apiRefId": "6tkGthnSLDTcHozvAyRHYc2lvRoccyzMCU3cd55JTJH477aRTpufhNERkQ21IrRbL2ZyzHD72zs0Q1ntkPVs8WRfLK",
+        "pusherId": "ae43f170-1a63-4118-a5a1-bfbb9fb5a587",
+        "facebookId": "",
+        "applePayLabel": "Donuttery (via biteME)",
+        "googlePayMerchant": "Donuttery (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.donuttery",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.donuttery",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "10",
+      "name": "DonPoio",
+      "config": {
+        "appName": "Don Poio",
+        "apiRefId": "W1TPvrOnLXRfdzZYfFcnSGB5AgiDCpg69HPFfNZZVmgMbz1rQhuiH8IGbnnLWGiz5pUOCdmtLV3htCJDGQxvaQAH9n",
+        "pusherId": "65a7b098-4544-4672-85df-94da531ef4f7",
+        "facebookId": "",
+        "applePayLabel": "Don Poio (via biteME)",
+        "googlePayMerchant": "Don Poio (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.donpoio",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.donpoio",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "11",
+      "name": "Eaters",
+      "config": {
+        "appName": "Eater's Burger Joint",
+        "apiRefId": "JeYSR2XVxZa3qenzgjR0A47581ryTgHEtWSK0wfpnsEDTBuQcMzHED1cGQ02LKHAJ6ovllyusrktvc78tMBGIaMRpi",
+        "pusherId": "1b5315fc-5255-4493-afc4-0bfccd651bc6",
+        "facebookId": "",
+        "applePayLabel": "Eater's Burger Joint (via biteME)",
+        "googlePayMerchant": "Eater's Burger Joint (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.eaters",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.eaters",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "12",
+      "name": "Foodz",
+      "config": {
+        "appName": "Foodz",
+        "apiRefId": "MTYWdTaADew61EUeuL7iJ7xAesysFVp3dNar9OJ6KpUgmM92st3UipYM8DjygF9mmt3fC9woD69xDD6k5fgX5X3rMD",
+        "pusherId": "eddfdf36-f434-4b36-a045-4b14d5207ea5",
+        "facebookId": "",
+        "applePayLabel": "Foodz (via biteME)",
+        "googlePayMerchant": "Foodz (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.foodz",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.foodz",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "13",
+      "name": "Foron",
+      "config": {
+        "appName": "Foron Rex",
+        "apiRefId": "14G3PCoaNnloZFcST5IDfXCm8Jbv49LZWB1CcF1A9M6uZ002Mzhctn2SGICq3Qp61HDO0RXePSqdE1wlY0NUB605g1",
+        "pusherId": "6e98c765-2e77-4d14-b711-1b93bdab2160",
+        "facebookId": "",
+        "applePayLabel": "Foron Rex (via biteME)",
+        "googlePayMerchant": "Foron Rex (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.foron",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.foron",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "14",
+      "name": "Hadramout",
+      "config": {
+        "appName": "Hadramout Restaurant",
+        "apiRefId": "cDaUNKscZO2E0ZdX9hblbp97UYHd7k8nKE4CE9WEEk7yjf3qAUeO1X0kgTGaCJrveEp4nLynmKSEfYhKjcH3viKWUO",
+        "pusherId": "262f4246-f1d3-462c-84c6-782c2aeded3b",
+        "facebookId": "",
+        "applePayLabel": "Hadramout Restaurant (via biteME)",
+        "googlePayMerchant": "Hadramout Restaurant (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.hadramout",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.hadramout",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "15",
+      "name": "Hashi",
+      "config": {
+        "appName": "Hashi Sushi",
+        "apiRefId": "FyVuwHsCiC2GHnK09ubNbFMHV0XmQlIZqBdw5ayUGldKH4JE47cFt7YwlPDskKKeG3nUl0xjAhFVJKiYYNxUItTi5U",
+        "pusherId": "6e3dd036-842e-455b-8892-fc279558f2fe",
+        "facebookId": "",
+        "applePayLabel": "Hashi Sushi (via biteME)",
+        "googlePayMerchant": "Hashi Sushi (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.hashi",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.hashi",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "16",
+      "name": "Ikura",
+      "config": {
+        "appName": "Ikura Sushi",
+        "apiRefId": "YRaumEjtcpxQP1RkWVv1Ml4jGzHHj8FQwL0UdSlhwV69eIRXlOOL5AUENvxCSh5rsIYmEB4KH2NKwu1TNzKuxZlKUq",
+        "pusherId": "5dd77d6f-b87b-4520-bef0-6557d79506f4",
+        "facebookId": "",
+        "applePayLabel": "Ikura Sushi (via biteME)",
+        "googlePayMerchant": "Ikura Sushi (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.ikura",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.ikura",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "17",
+      "name": "Jdb",
+      "config": {
+        "appName": "Jdb",
+        "apiRefId": "K4GgypC048kxz0424Pr9mkLEfdPQMTFYTSkKWLWBMcWBqz6T6yBWIY92GagTesLHYEBDDUkUjrsauJB950tOo4z3rQ",
+        "pusherId": "ed2faae7-d040-4c83-a9bb-048517a3dd09",
+        "facebookId": "",
+        "applePayLabel": "Jdb (via biteME)",
+        "googlePayMerchant": "Jdb (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.jdb",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.jdb",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "18",
+      "name": "Ivyshop",
+      "config": {
+        "appName": "Ivyshop",
+        "apiRefId": "rhIWeN14ExFlUpPyPUnh1jAkYC8uuXIBPCRZo08j5ypJyamqt42XLTDCcPGE47KOXOPMbbnnZJop6ZFSnd5vnSPZT5",
+        "pusherId": "da6ea109-6e22-4198-a1d2-bbd03dd523a6",
+        "facebookId": "",
+        "applePayLabel": "Ivyshop (via biteME)",
+        "googlePayMerchant": "Ivyshop (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.ivyshop",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.ivyshop",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "19",
+      "name": "Kababji",
+      "config": {
+        "appName": "Kababji",
+        "apiRefId": "oGG6YhSLKqd3piMXVBT2jBk4spiNfZXLSAotB6CjDlAtMgZgZHVm5Y2BUT55m4veqFoUSGTADJAfWjK1mUPthWJvzr",
+        "pusherId": "f814c04f-7ac8-494d-9f29-8dfc89a1e5a6",
+        "facebookId": "",
+        "applePayLabel": "Kababji (via biteME)",
+        "googlePayMerchant": "Kababji (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.kababji",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.kababji",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "20",
+      "name": "NedsPizza",
+      "config": {
+        "appName": "Ned's Pizza",
+        "apiRefId": "FR4iMFdhxhsLiCi1D4r8OpwBAv0a8mB7JxmvavQcIf5iqtTVvMPK8ATKtc461z2zi9Ie7JiuHgE2SuwRG1Id83WfqG",
+        "pusherId": "5cfad7fe-50fa-42f9-8e17-b2ed0728d9ce",
+        "facebookId": "",
+        "applePayLabel": "Ned's Pizza (via biteME)",
+        "googlePayMerchant": "Ned's Pizza (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.nedspizza",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.nedspizza",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "21",
+      "name": "Pounder",
+      "config": {
+        "appName": "Pounder",
+        "apiRefId": "C5R0yHWQC9tdNXj7MCacvGOpSWCpHf55FeDzTVTPbstGe7PzgwJEBNYiRAcHuDCWlM8SdV6eKgKplo52ELMBfNAVye",
+        "pusherId": "b9b7ff76-d370-442a-94e7-08ac742f55da",
+        "facebookId": "",
+        "applePayLabel": "Pounder (via biteME)",
+        "googlePayMerchant": "Pounder (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.pounder",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.pounder",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "22",
+      "name": "OnIce",
+      "config": {
+        "appName": "On Ice",
+        "apiRefId": "njqG0mUPbYBFhXlFEvycYbraNctvbbvc1tIzlkfqQO4qH6UmRzl7jSaCdSFAptl4AzUTLe2vkkGbl9obEYY85wZqBo",
+        "pusherId": "d190dc7d-c883-40c1-bdc6-1e38ca502ba6",
+        "facebookId": "",
+        "applePayLabel": "On Ice (via biteME)",
+        "googlePayMerchant": "On Ice (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.onice",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.onice",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "23",
+      "name": "Qahwablk",
+      "config": {
+        "appName": "Qahwablk",
+        "apiRefId": "HJbxMC1g67ABhxySfh4sC4MXkETYsRAWWwIQ0Ugjklev6tsJ8DhMOq3vqhSEU1whnRTEiCzeicW8fgHbZEnOOkhRHR",
+        "pusherId": "8cd332dd-a34b-47ba-8082-986cb5e4f62d",
+        "facebookId": "",
+        "applePayLabel": "Qahwablk (via biteME)",
+        "googlePayMerchant": "Qahwablk (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.qahwablk",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.qahwablk",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "24",
+      "name": "Sakura",
+      "config": {
+        "appName": "Sakura Sushi",
+        "apiRefId": "VoqJHJFA7Bbv5ppNmjyVa9Qd3Aws1PG0d1q9YzKWGGaUPMqeB09RB0XCowjf5sBsajUPtrWJ5SgqO47deFmyVnietX",
+        "pusherId": "cab2a368-151f-4f65-a91c-2f69a6822ee2",
+        "facebookId": "",
+        "applePayLabel": "Sakura Sushi (via biteME)",
+        "googlePayMerchant": "Sakura Sushi (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.sakura",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.sakura",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "25",
+      "name": "SaladBoutique",
+      "config": {
+        "appName": "The Salad Boutique",
+        "apiRefId": "nOSBD3VdkBJhoQxVSubFYT248lX30RmPqrrqcB8vdORpdfWHk5XgnHZ81670ltwO5PAEKJwIyvUxrxEeLeUsN1JDGU",
+        "pusherId": "446d908d-997b-4a5f-88ab-042e98c5d1da",
+        "facebookId": "",
+        "applePayLabel": "The Salad Boutique (via biteME)",
+        "googlePayMerchant": "The Salad Boutique (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.saladboutique",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.saladboutique",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "26",
+      "name": "ShamsDates",
+      "config": {
+        "appName": "Shams Dates",
+        "apiRefId": "7XIeT0nCaqdE9mWsTh7WqZmdke4rrhSOCec62ERtTS4cApGo8f5IgUhrV5bGyg8E9uhhBqkECSipb5PVlSiaexOxTJ",
+        "pusherId": "ad6bb682-4111-4087-9bde-4d151a80d8a9",
+        "facebookId": "",
+        "applePayLabel": "Shams Dates (via biteME)",
+        "googlePayMerchant": "Shams Dates (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.shamsdates",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.shamsdates",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "27",
+      "name": "SimplyQuiche",
+      "config": {
+        "appName": "Simply Quiche",
+        "apiRefId": "o04BPAV9DCe9fmMrJisYWTIZCV6vUjduOZJJgrSeihw0xufgG6LJN6hFmjyHGBzN611tWBpqEqQveWjCDFeYKHQp3J",
+        "pusherId": "599fa5ab-8d87-42a6-a933-3b6a43dc5256",
+        "facebookId": "",
+        "applePayLabel": "Simply Quiche (via biteME)",
+        "googlePayMerchant": "Simply Quiche (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.simplyquiche",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.simplyquiche",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "28",
+      "name": "Sushicrazy",
+      "config": {
+        "appName": "Sushicrazy",
+        "apiRefId": "qseO6teakkv6rEul2tnzhDMvkCOP8FBCcNQ92DRcJwpCZIrXXwMhgVmOlOMBpGZpPsu26nYNEz0J1IyOL6hKHSNrjt",
+        "pusherId": "5595c9f5-63ea-40e4-bef1-4372f6c767b9",
+        "facebookId": "",
+        "applePayLabel": "Sushicrazy (via biteME)",
+        "googlePayMerchant": "Sushicrazy (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.sushicrazy",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.sushicrazy",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "29",
+      "name": "TheCakery",
+      "config": {
+        "appName": "The Cakery",
+        "apiRefId": "Yp5Yx2RqCYhBI6Sx3enIGObpJN6w2W14VYR8yqH6lKCwi5UT6qPNRJ9D56gQdvkN5kLAF8b4rE97Xfc5GZAD9Oldhy",
+        "pusherId": "110775c8-92f0-45e6-ad31-bc63641a1807",
+        "facebookId": "",
+        "applePayLabel": "The Cakery (via biteME)",
+        "googlePayMerchant": "The Cakery (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.thecakery",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.thecakery",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "30",
+      "name": "TheFitBar",
+      "config": {
+        "appName": "THE FIT BAR",
+        "apiRefId": "liJTgkHvtCPYit7XTLkAfkydKoR2hmHPNDXgAFls1v5kuo1DNvQxJiFwkRtcbL7QpNkqkfKNEw8stICPJbLIrKvqqa",
+        "pusherId": "554b2cc4-b957-456c-b26f-df6a9f622faa",
+        "facebookId": "",
+        "applePayLabel": "THE FIT BAR (via biteME)",
+        "googlePayMerchant": "THE FIT BAR (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.thefitbar",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.thefitbar",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "31",
+      "name": "TikkaChicken",
+      "config": {
+        "appName": "Tikka Chicken",
+        "apiRefId": "I51SvwVvzy9OVvPzJiNnDiHDxzeuLCtFjX6upsy1XZEWFV8AciPQvrJ0gvkAByxXeDJuu44atesRXIW6qiPx2fxD0r",
+        "pusherId": "876e54dc-0941-43c8-836c-635b83476e2f",
+        "facebookId": "",
+        "applePayLabel": "Tikka Chicken (via biteME)",
+        "googlePayMerchant": "Tikka Chicken (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.tikkachicken",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.tikkachicken",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "32",
+      "name": "YazanShawerma",
+      "config": {
+        "appName": "Yazan Shawerma",
+        "apiRefId": "rZSgEYgL2ByT44n6gk08Rk6kPKOAEBNu3xaMBHc3vgiIsZOY395HK2jJqQ9EDvzk8FyZTCtn5oNZVOwfv0KsAySwPH",
+        "pusherId": "7e419fd4-4103-4481-b3ce-2977b2a92b5a",
+        "facebookId": "",
+        "applePayLabel": "Yazan Shawerma (via biteME)",
+        "googlePayMerchant": "Yazan Shawerma (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.yazanshawerma",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.yazanshawerma",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "33",
+      "name": "Casper",
+      "config": {
+        "appName": "Casper & Gambini's",
+        "apiRefId": "wGWZO6XMODGP5sBJDpRUHtHw1fssqj8rI1UTIXYWpOpkvwBAQk9mFzlA9aR9MZzaeHP1onNfT5oejRSBcnnYccvo6F",
+        "pusherId": "ab246584-908d-4504-8e02-5c78d4c27e3d",
+        "facebookId": "",
+        "applePayLabel": "Casper & Gambini's (via biteME)",
+        "googlePayMerchant": "Casper & Gambini's (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.casper",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.casper",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "34",
+      "name": "Sushicrush",
+      "config": {
+        "appName": "Sushicrush",
+        "apiRefId": "6uyVciWCOAI0Z7TvTfbK5gFpBGFzJmEo3H5Hbi9Q5lALudEdufypUSRoOFmhwtPQUqT3eJykH412iHzn4MOgyNtEzQ",
+        "pusherId": "2d34c06c-06c6-4284-8b35-34a6ea189979",
+        "facebookId": "",
+        "applePayLabel": "Sushicrush (via biteME)",
+        "googlePayMerchant": "Sushicrush (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.sushicrush",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.sushicrush",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "35",
+      "name": "TJBurger",
+      "config": {
+        "appName": "TJ Burger",
+        "apiRefId": "9XffOKq2yIobwRTsYbSIv7zu9L00M12zqQCVSp3ZH2fTfwW2GFSXvMSBgV8uaY5orMScJyOCWfOY4yIHoZWGno9lue",
+        "pusherId": "5ac8815c-a376-4b26-be0d-3698032d697e",
+        "facebookId": "",
+        "applePayLabel": "TJ Burger (via biteME)",
+        "googlePayMerchant": "TJ Burger (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.tjburger",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.tjburger",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "36",
+      "name": "Tntshop",
+      "config": {
+        "appName": "Tntshop",
+        "apiRefId": "LR4KWs3KehzCVyMbkki6RXiOHXnbIUMeBD518OZ5CbMopRyg0GQzcyn4OKAaVyaDUgrp6SFdfa6aowfL3iFDOjO01b",
+        "pusherId": "8fe85da9-21cd-4b3e-b1f7-1d3b3c924148",
+        "facebookId": "",
+        "applePayLabel": "Tntshop (via biteME)",
+        "googlePayMerchant": "Tntshop (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.tntshop",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.tntshop",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "37",
+      "name": "YagoosFC",
+      "config": {
+        "appName": "Yagoo's FC",
+        "apiRefId": "GpR3Z0ZfixXZPp1U6WbqVnVhNcv1NccAqjY9LX8WMqrImvfluWXhstNaP6Sf1c9f3m0266q7A7QuD1n9LRfkme69qp",
+        "pusherId": "6d667e61-e883-4199-832e-5c46a81440c9",
+        "facebookId": "",
+        "applePayLabel": "Yagoo's FC (via biteME)",
+        "googlePayMerchant": "Yagoo's FC (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.yagoosfc",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.yagoosfc",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "38",
+      "name": "Rays",
+      "config": {
+        "appName": "Ray's Fried Chicken",
+        "apiRefId": "NUXgeZ9K24ByLpvbIksaRvJw8OBMdqBU1lw6S6TvFhUU8XsXRRTZf1GU6hbxpMUhdvFtQRTnJFdIlTzZ9nlSdZXgE2",
+        "pusherId": "f74f5fe0-6247-4860-94cb-9726cf863813",
+        "facebookId": "",
+        "applePayLabel": "Ray's Fried Chicken (via biteME)",
+        "googlePayMerchant": "Ray's Fried Chicken (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.rays",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.rays",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "39",
+      "name": "Looty",
+      "config": {
+        "appName": "Looty",
+        "apiRefId": "Bo3QiRloPPZulsmjTOTrFwUx0DypQMO8xTyeuhU4FuujG7dF9PeFjrenDcbibqE9oQB6WH6WCAdRFIXvVSvg4aTYq1",
+        "pusherId": "2c91e528-504e-43d3-9c93-02d46841244d",
+        "facebookId": "",
+        "applePayLabel": "Looty (via biteME)",
+        "googlePayMerchant": "Looty (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.looty",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.looty",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "40",
+      "name": "Tandoori",
+      "config": {
+        "appName": "Tandoori Oven",
+        "apiRefId": "0iBcXtYgxnlJ38qPHDC4ixKAXkWeQSm5fVOFAsIOn5icRPAOgGQv2MIGtzcWmNeNWojr9H2cBkjKdqDtsRhZu7TOb9",
+        "pusherId": "528aa7df-7f78-4512-a4d4-b8729ca5da5a",
+        "facebookId": "",
+        "applePayLabel": "Tandoori Oven (via biteME)",
+        "googlePayMerchant": "Tandoori Oven (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.tandoori",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.tandoori",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "41",
+      "name": "MadMango",
+      "config": {
+        "appName": "Mad Mango",
+        "apiRefId": "ctDyruWNCcYmqdsEl0nHyegoEoM246Plxh9USXtpXyumNoFPg1kYwByHPDB1sYy7NDgMMeFvfoNhKG80ooFH9QTnDm",
+        "pusherId": "85d3b8fd-8a76-4ce3-81f3-12b906d0c634",
+        "facebookId": "",
+        "applePayLabel": "Mad Mango (via biteME)",
+        "googlePayMerchant": "Mad Mango (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.madmango",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.madmango",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "42",
+      "name": "BlueFig",
+      "config": {
+        "appName": "Blue Fig",
+        "apiRefId": "mSFF42yHp1r4qcyjXKXyAIoRcuadZ1yrxR8Nrfki4qcRpOghHxkHBspcvn6c716WwgrTzoRao6ZT1j46kLJMI4lVr4",
+        "pusherId": "b7750adf-c665-4351-9493-b11adc3e46dc",
+        "facebookId": "",
+        "applePayLabel": "Blue Fig (via biteME)",
+        "googlePayMerchant": "Blue Fig (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.bluefig",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.bluefig",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "43",
+      "name": "Sofia",
+      "config": {
+        "appName": "Sofia",
+        "apiRefId": "gHgvyINNSKNv3lqwjK2MkhRA0ONHG3RjZ3mFQK02YneswNLKVa7epPtEz67DTL453Qz0j0RTr6XAoXio9Tofn4b5qg",
+        "pusherId": "987f9993-2abd-49f5-9579-a21eeaaf3624",
+        "facebookId": "",
+        "applePayLabel": "Sofia (via biteME)",
+        "googlePayMerchant": "Sofia (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.sofia",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.sofia",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "44",
+      "name": "QahwaBLK",
+      "config": {
+        "appName": "Qahwa BLK",
+        "apiRefId": "HJbxMC1g67ABhxySfh4sC4MXkETYsRAWWwIQ0Ugjklev6tsJ8DhMOq3vqhSEU1whnRTEiCzeicW8fgHbZEnOOkhRHR",
+        "pusherId": "8cd332dd-a34b-47ba-8082-986cb5e4f62d",
+        "facebookId": "",
+        "applePayLabel": "Qahwa BLK (via biteME)",
+        "googlePayMerchant": "Qahwa BLK (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.qahwablk",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.qahwablk",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    },
+    {
+      "refId": "45",
+      "name": "Fuel",
+      "config": {
+        "appName": "Fuel",
+        "apiRefId": "pfMXVTpDcwlujr9OSaHFDWxLQOCxzXCP7GR8KYIoJFNp9DwakhMiozy2PQfEqGy77hfXwDApyBnWZE3bPtdAYo3vgC",
+        "pusherId": "4dfd2391-665e-427e-9637-e7e5a8f2d0fc",
+        "facebookId": "",
+        "applePayLabel": "Fuel (via biteME)",
+        "googlePayMerchant": "Fuel (via biteME)",
+        "environment": "staging",
+        "ios": {
+          "bundleId": "com.bitesnbags.fuel",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        },
+        "android": {
+          "bundleId": "com.bitesnbags.fuel",
+          "buildNumber": "1",
+          "buildVersion": "1.0.0"
+        }
+      }
+    }
+  ]
+}
