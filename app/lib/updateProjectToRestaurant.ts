@@ -224,6 +224,12 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
     true
   );
 
+  await copyDirectory(
+    path.join(process.cwd(), "public", "ios"),
+    `${projectPrefix}ios/bitesnbags/Images.xcassets/Logo.imageset`, 
+    true
+  );
+
   console.log(
     `\x1b[32mProject updated successfully for ${restaurantName}\x1b[0m`
   );
