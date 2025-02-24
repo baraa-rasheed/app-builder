@@ -20,15 +20,22 @@ interface Restaurant {
   config: AppConfig;
 }
 
-// Helper function to update file content
+// Helper function to update file content with regex
 const updateContent = async (
   filePath: string,
-  oldText: string,
+  regex: RegExp,
   newText: string
 ) => {
   try {
     let data = await fs.readFile(filePath, "utf8");
-    const updatedContent = data.replaceAll(oldText, newText);
+    // Ensure the regex has the global flag if not already present
+    const globalRegex = regex.global
+      ? regex
+      : new RegExp(regex.source, regex.flags + "g");
+    if (!globalRegex.test(data)) {
+      throw new Error(`Pattern ${regex} not found in ${filePath}`);
+    }
+    const updatedContent = data.replace(globalRegex, newText);
     await fs.writeFile(filePath, updatedContent, "utf8");
     console.log(`\x1b[32mUpdated ${filePath}\x1b[0m`);
   } catch (err: any) {
@@ -76,48 +83,141 @@ const copyDirectory = async (
   }
 };
 
-// Helper function to get the current restaurant name from the Android strings.xml
-const getCurrentRestaurant = async (): Promise<Restaurant> => {
-  try {
-    const data = await fs.readFile(
-      `${projectPrefix}android/app/src/main/res/values/strings.xml`,
-      "utf8"
-    );
-    const restaurantName = data
-      .split("\n")[1]
-      .replace('<string name="app_name">', "")
-      .replace("</string>", "")
-      .trim()
-      .replace(/\s/g, "")
-      .replace(/[^a-zA-Z0-9]/g, "")
-      .toLowerCase();
-
-    const restaurantsData = JSON.parse(
-      await fs.readFile(
-        path.join(process.cwd(), "app/data/restaurants.json"),
-        "utf8"
-      )
-    ).restaurants as Restaurant[];
-
-    const currentRestaurant = restaurantsData.find((r: Restaurant) =>
-      restaurantName.includes(r.name.toLowerCase().replace(/[^a-z0-9]/g, ""))
-    );
-
-    if (!currentRestaurant)
-      throw new Error("Current restaurant not found in restaurants.json");
-    return currentRestaurant;
-  } catch (err: any) {
-    console.log(
-      `\x1b[31mError getting current restaurant: ${err.message}\x1b[0m`
-    );
-    throw err;
-  }
-};
-
 const getApiUrl = (environment: "staging" | "live") => {
   return environment === "staging"
     ? "https://stg.bitesnbags.com"
     : "https://bitesnbags.com";
+};
+
+// Helper function to update iOS project.pbxproj with build number and version
+const updateIOSProject = async (
+  filePath: string,
+  iosBundleId: string,
+  newBuildNumber: string,
+  newVersion: string
+) => {
+  try {
+    let data = await fs.readFile(filePath, "utf8");
+    // Match and replace PRODUCT_BUNDLE_IDENTIFIER
+    const bundleIdRegex = /PRODUCT_BUNDLE_IDENTIFIER\s*=\s*".*?"/g;
+    data = data.replace(
+      bundleIdRegex,
+      `PRODUCT_BUNDLE_IDENTIFIER = "${iosBundleId}"`
+    );
+    // Match and replace CURRENT_PROJECT_VERSION
+    const buildNumberRegex = /CURRENT_PROJECT_VERSION\s*=\s*[^;]+;/g;
+    data = data.replace(
+      buildNumberRegex,
+      `CURRENT_PROJECT_VERSION = ${newBuildNumber};`
+    );
+    // Match and replace MARKETING_VERSION
+    const versionRegex = /MARKETING_VERSION\s*=\s*[^;]+;/g;
+    data = data.replace(versionRegex, `MARKETING_VERSION = ${newVersion};`);
+
+    await fs.writeFile(filePath, data, "utf8");
+    console.log(`\x1b[32mUpdated iOS project settings in ${filePath}\x1b[0m`);
+  } catch (err: any) {
+    console.log(`\x1b[31mError updating ${filePath}: ${err.message}\x1b[0m`);
+    throw err;
+  }
+};
+
+// Helper function to update Android build.gradle with build number and version
+const updateAndroidGradle = async (
+  filePath: string,
+  androidAppId: string,
+  newBuildNumber: string,
+  newVersion: string
+) => {
+  try {
+    let data = await fs.readFile(filePath, "utf8");
+    // Match and replace applicationId
+    const bundleIdRegex = /applicationId\s+".*?"/s;
+    data = data.replace(bundleIdRegex, `applicationId "${androidAppId}"`);
+    // Match and replace versionCode
+    const buildNumberRegex = /versionCode\s+\d+/s;
+    data = data.replace(buildNumberRegex, `versionCode ${newBuildNumber}`);
+    // Match and replace versionName
+    const versionRegex = /versionName\s+".*?"/s;
+    data = data.replace(versionRegex, `versionName "${newVersion}"`);
+
+    await fs.writeFile(filePath, data, "utf8");
+    console.log(`\x1b[32mUpdated Android build settings in ${filePath}\x1b[0m`);
+  } catch (err: any) {
+    console.log(`\x1b[31mError updating ${filePath}: ${err.message}\x1b[0m`);
+    throw err;
+  }
+};
+
+// Helper function to update constants.ts
+const updateConstants = async (
+  filePath: string,
+  apiRefId: string,
+  domainUrl: string,
+  pusherId: string
+) => {
+  try {
+    let data = await fs.readFile(filePath, "utf8");
+    // Match export const statements with flexible whitespace and quotes
+    const apiRefIdRegex = /export\s+const\s+API_REF_ID\s*=\s*['"].*?['"]/s;
+    const domainUrlRegex = /export\s+const\s+DOMAIN_URL\s*=\s*['"].*?['"]/s;
+    const pusherIdRegex =
+      /export\s+const\s+PUSHER_INSTANCE_ID\s*=\s*['"].*?['"]/s;
+
+    data = data.replace(
+      apiRefIdRegex,
+      `export const API_REF_ID = '${apiRefId}'`
+    );
+    data = data.replace(
+      domainUrlRegex,
+      `export const DOMAIN_URL = '${domainUrl}'`
+    );
+    data = data.replace(
+      pusherIdRegex,
+      `export const PUSHER_INSTANCE_ID = '${pusherId}'`
+    );
+
+    await fs.writeFile(filePath, data, "utf8");
+    console.log(`\x1b[32mUpdated constants in ${filePath}\x1b[0m`);
+  } catch (err: any) {
+    console.log(`\x1b[31mError updating ${filePath}: ${err.message}\x1b[0m`);
+    throw err;
+  }
+};
+
+// Helper function to update Apple Pay config
+const updateApplePayConfig = async (filePath: string, paymentLabel: string) => {
+  try {
+    let data = await fs.readFile(filePath, "utf8");
+    // Match PAYMENT_LABEL with flexible whitespace and quotes
+    const paymentLabelRegex = /PAYMENT_LABEL\s*:\s*[`'"].*?[`'"]/s;
+    data = data.replace(paymentLabelRegex, `PAYMENT_LABEL: '${paymentLabel}'`);
+
+    await fs.writeFile(filePath, data, "utf8");
+    console.log(`\x1b[32mUpdated Apple Pay config in ${filePath}\x1b[0m`);
+  } catch (err: any) {
+    console.log(`\x1b[31mError updating ${filePath}: ${err.message}\x1b[0m`);
+    throw err;
+  }
+};
+
+// Helper function to update Google Pay config
+const updateGooglePayConfig = async (
+  filePath: string,
+  merchantName: string
+) => {
+  try {
+    let data = await fs.readFile(filePath, "utf8");
+    // Match MERCHANT_NAME with flexible whitespace and quotes
+    const merchantNameRegex = /MERCHANT_NAME\s*:\s*[`'"].*?[`'"]/s;
+    data = data.replace(merchantNameRegex, `MERCHANT_NAME: '${merchantName}'`);
+
+    await fs.writeFile(filePath, data, "utf8");
+    console.log(`\x1b[32mUpdated Google Pay config in ${filePath}\x1b[0m`);
+  } catch (err: any) {
+    console.log(`\x1b[31mError updating ${filePath}: ${err.message}\x1b[0m`);
+    throw err;
+  }
 };
 
 // Main function to update the project for a specific restaurant
@@ -130,72 +230,71 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
       environment,
       applePayLabel,
       googlePayMerchant,
-      ios: { bundleId: iosBundleId },
-      android: { bundleId: androidAppId },
+      ios: {
+        bundleId: iosBundleId,
+        buildNumber: iosBuildNumber,
+        buildVersion: iosBuildVersion,
+      },
+      android: {
+        bundleId: androidAppId,
+        buildNumber: androidBuildNumber,
+        buildVersion: androidBuildVersion,
+      },
     },
     name: restaurantName,
   } = restaurant;
 
-  const currentRestaurant = await getCurrentRestaurant();
   console.log(`\x1b[34mUpdating project to ${restaurantName}\x1b[0m`);
 
-  // Update file content
-  const updates = [
-    {
-      file: `${projectPrefix}src/lib/constants.ts`,
-      old: currentRestaurant.config.apiRefId,
-      new: apiRefId,
-    },
-    {
-      file: `${projectPrefix}src/lib/constants.ts`,
-      old: currentRestaurant.config.pusherId,
-      new: pusherId,
-    },
-    {
-      file: `${projectPrefix}src/lib/constants.ts`,
-      old: getApiUrl(currentRestaurant.config.environment),
-      new: getApiUrl(environment),
-    },
-    {
-      file: `${projectPrefix}src/lib/hooks/useApplePay.ts`,
-      old: currentRestaurant.config.applePayLabel,
-      new: applePayLabel,
-    },
-    {
-      file: `${projectPrefix}src/lib/hooks/useGooglePay.ts`,
-      old: currentRestaurant.config.googlePayMerchant,
-      new: googlePayMerchant,
-    },
-    {
-      file: `${projectPrefix}android/app/build.gradle`,
-      old: currentRestaurant.config.android.bundleId,
-      new: androidAppId,
-    },
-    {
-      file: `${projectPrefix}android/app/src/main/res/values/strings.xml`,
-      old: currentRestaurant.config.appName,
-      new: appName,
-    },
-    {
-      file: `${projectPrefix}ios/bitesnbags.xcodeproj/project.pbxproj`,
-      old: currentRestaurant.config.ios.bundleId,
-      new: iosBundleId,
-    },
-    {
-      file: `${projectPrefix}ios/bitesnbags.xcodeproj/project.pbxproj`,
-      old: currentRestaurant.config.appName,
-      new: appName,
-    },
-    {
-      file: `${projectPrefix}ios/bitesnbags/info.plist`,
-      old: "we require your location information in order to deliver to you accurately.",
-      new: `${appName} requires your location information in order to deliver to you accurately.`,
-    },
-  ];
+  // Update constants.ts
+  await updateConstants(
+    `${projectPrefix}src/lib/constants.ts`,
+    apiRefId,
+    getApiUrl(environment),
+    pusherId
+  );
 
-  for (const { file, old, new: newText } of updates) {
-    await updateContent(file, old, newText);
-  }
+  // Update Apple Pay config
+  await updateApplePayConfig(
+    `${projectPrefix}src/lib/hooks/useApplePay.ts`,
+    applePayLabel
+  );
+
+  // Update Google Pay config
+  await updateGooglePayConfig(
+    `${projectPrefix}src/lib/hooks/useGooglePay.ts`,
+    googlePayMerchant
+  );
+
+  // Update Android build.gradle directly
+  await updateAndroidGradle(
+    `${projectPrefix}android/app/build.gradle`,
+    androidAppId,
+    androidBuildNumber,
+    androidBuildVersion
+  );
+
+  // Update Android app name in strings.xml
+  await updateContent(
+    `${projectPrefix}android/app/src/main/res/values/strings.xml`,
+    /<string name="app_name">.*?<\/string>/,
+    `<string name="app_name">${appName}</string>`
+  );
+
+  // Update iOS project.pbxproj
+  await updateIOSProject(
+    `${projectPrefix}ios/bitesnbags.xcodeproj/project.pbxproj`,
+    iosBundleId,
+    iosBuildNumber,
+    iosBuildVersion
+  );
+
+  // Update iOS Info.plist for location permission
+  await updateContent(
+    `${projectPrefix}ios/bitesnbags/info.plist`,
+    /<string>.* requires your location information in order to deliver to you accurately./,
+    `<string>${appName} requires your location information in order to deliver to you accurately.`
+  );
 
   // Copy directories from the UI-generated assets
   const restaurantDir = path.join(
@@ -226,7 +325,7 @@ export const updateProjectToRestaurant = async (restaurant: Restaurant) => {
 
   await copyDirectory(
     path.join(process.cwd(), "public", "ios"),
-    `${projectPrefix}ios/bitesnbags/Images.xcassets/Logo.imageset`, 
+    `${projectPrefix}ios/bitesnbags/Images.xcassets/Logo.imageset`,
     true
   );
 

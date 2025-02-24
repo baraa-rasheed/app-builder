@@ -90,16 +90,17 @@ const getFilePath = (
 export const loader = async ({ request }: { request: Request }) => {
   const url = new URL(request.url);
   const selectedRefId = url.searchParams.get("selected");
-
   try {
     const filePath = path.join(process.cwd(), "app/data/restaurants.json");
     const fileContent = await fs.readFile(filePath, "utf-8");
-    const { restaurants } = JSON.parse(fileContent) as { restaurants: Restaurant[] };
+    const { restaurants } = JSON.parse(fileContent) as {
+      restaurants: Restaurant[];
+    };
 
     let result: LoaderData = { restaurants };
-    
+
     if (selectedRefId) {
-      const selected = restaurants.find(r => r.refId === selectedRefId);
+      const selected = restaurants.find((r) => r.refId === selectedRefId);
       if (selected) {
         const baseDir = path.join(
           process.cwd(),
@@ -113,7 +114,11 @@ export const loader = async ({ request }: { request: Request }) => {
           { key: "iosSplash", path: "ios/SplashScreen.imageset" },
           { key: "iosITunes", path: "ios/Logo.imageset" },
           { key: "androidRes", path: "android/res" },
-          { key: "googleServices", path: "android/json", singleFile: "google-services.json" },
+          {
+            key: "googleServices",
+            path: "android/json",
+            singleFile: "google-services.json",
+          },
         ];
 
         const assets = {
@@ -124,7 +129,13 @@ export const loader = async ({ request }: { request: Request }) => {
           googleServices: { files: [], previews: {} },
         };
 
-        const readDirRecursive = async (dirPath: string, relativePath: string = ""): Promise<{ files: string[], previews: { [key: string]: string } }> => {
+        const readDirRecursive = async (
+          dirPath: string,
+          relativePath: string = ""
+        ): Promise<{
+          files: string[];
+          previews: { [key: string]: string };
+        }> => {
           const entries = await fs.readdir(dirPath, { withFileTypes: true });
           let files: string[] = [];
           let previews: { [key: string]: string } = {};
@@ -137,11 +148,17 @@ export const loader = async ({ request }: { request: Request }) => {
               const subResult = await readDirRecursive(fullPath, relPath);
               files = files.concat(subResult.files);
               Object.assign(previews, subResult.previews);
-            } else if (entry.name.endsWith('.png') || entry.name.endsWith('.jpg') || entry.name.endsWith('.jpeg')) {
+            } else if (
+              entry.name.endsWith(".png") ||
+              entry.name.endsWith(".jpg") ||
+              entry.name.endsWith(".jpeg")
+            ) {
               files.push(relPath);
               const buffer = await fs.readFile(fullPath);
               const base64 = buffer.toString("base64");
-              const mimeType = entry.name.endsWith('.png') ? "image/png" : "image/jpeg";
+              const mimeType = entry.name.endsWith(".png")
+                ? "image/png"
+                : "image/jpeg";
               previews[relPath] = `data:${mimeType};base64,${base64}`;
             } else {
               files.push(relPath); // Include non-image files without previews
@@ -165,7 +182,10 @@ export const loader = async ({ request }: { request: Request }) => {
                 const buffer = await fs.readFile(filePath);
                 const base64 = buffer.toString("base64");
                 previews[singleFile] = `data:application/json;base64,${base64}`;
-                assets[key as keyof typeof assets] = { files: [singleFile], previews };
+                assets[key as keyof typeof assets] = {
+                  files: [singleFile],
+                  previews,
+                };
               }
             } else {
               const fileNames = await fs.readdir(dirPath).catch(() => []);
@@ -174,10 +194,15 @@ export const loader = async ({ request }: { request: Request }) => {
                 const filePath = path.join(dirPath, fileName);
                 const buffer = await fs.readFile(filePath);
                 const base64 = buffer.toString("base64");
-                const mimeType = fileName.endsWith(".json") ? "application/json" : "image/png";
+                const mimeType = fileName.endsWith(".json")
+                  ? "application/json"
+                  : "image/png";
                 previews[fileName] = `data:${mimeType};base64,${base64}`;
               }
-              assets[key as keyof typeof assets] = { files: fileNames, previews };
+              assets[key as keyof typeof assets] = {
+                files: fileNames,
+                previews,
+              };
             }
           } catch (error) {
             console.error(`Error loading ${key} assets:`, error);
@@ -186,7 +211,7 @@ export const loader = async ({ request }: { request: Request }) => {
 
         result.selectedRestaurant = {
           ...selected,
-          assets
+          assets,
         };
       }
     }
@@ -219,9 +244,15 @@ export const action = async ({
 
   try {
     await fs.mkdir(baseDir, { recursive: true });
-    await fs.mkdir(path.join(baseDir, "ios", "AppIcon.appiconset"), { recursive: true });
-    await fs.mkdir(path.join(baseDir, "ios", "SplashScreen.imageset"), { recursive: true });
-    await fs.mkdir(path.join(baseDir, "ios", "Logo.imageset"), { recursive: true });
+    await fs.mkdir(path.join(baseDir, "ios", "AppIcon.appiconset"), {
+      recursive: true,
+    });
+    await fs.mkdir(path.join(baseDir, "ios", "SplashScreen.imageset"), {
+      recursive: true,
+    });
+    await fs.mkdir(path.join(baseDir, "ios", "Logo.imageset"), {
+      recursive: true,
+    });
     await fs.mkdir(path.join(baseDir, "android", "res"), { recursive: true });
     await fs.mkdir(path.join(baseDir, "android", "json"), { recursive: true });
 
@@ -282,7 +313,9 @@ const RestaurantModal: React.FC<{
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const bundleId = `com.bitesnbags.${name.toLowerCase().replace(/[^a-z0-9]/g, "")}`;
+    const bundleId = `com.bitesnbags.${name
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "")}`;
     const newConfig: AppConfig = {
       appName: name,
       apiRefId: "",
@@ -521,16 +554,21 @@ const AssetUploader: React.FC<{
 
 // Main App Component
 const Home: React.FC = () => {
-  const { restaurants, selectedRestaurant: initialSelected } = useLoaderData() as LoaderData;
+  const { restaurants, selectedRestaurant: initialSelected } =
+    useLoaderData() as LoaderData;
   const submit = useSubmit();
   const navigation = useNavigation();
   const actionData = useActionData() as ActionResponse | undefined;
   const navigate = useNavigate();
 
-  const [selectedRestaurantRefId, setSelectedRestaurantRefId] = useState(initialSelected?.refId || "");
+  const [selectedRestaurantRefId, setSelectedRestaurantRefId] = useState(
+    initialSelected?.refId || ""
+  );
   const [showAddModal, setShowAddModal] = useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
-  const [submissionStatus, setSubmissionStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [submissionStatus, setSubmissionStatus] = useState<
+    "idle" | "submitting" | "success" | "error"
+  >("idle");
 
   const [config, setConfig] = useState<AppConfig>(
     initialSelected?.config || {
@@ -590,7 +628,10 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     if (actionData?.success && submissionStatus !== "success") {
-      if (actionData.newRestaurant && selectedRestaurantRefId !== actionData.newRestaurant.refId) {
+      if (
+        actionData.newRestaurant &&
+        selectedRestaurantRefId !== actionData.newRestaurant.refId
+      ) {
         navigate(`/?selected=${actionData.newRestaurant.refId}`);
       } else if (submissionStatus === "submitting") {
         setSubmissionStatus("success");
@@ -639,7 +680,7 @@ const Home: React.FC = () => {
   };
 
   const handleFolderChange = (
-    type: "iosAppIcons" | "iosSplash" | "androidRes" | "googleServices",
+    type: "iosAppIcons" | "iosSplash" | "androidRes",
     files: FileList
   ) => {
     const newFiles = Array.from(files);
@@ -658,7 +699,10 @@ const Home: React.FC = () => {
     });
 
     Promise.all(promises).then(() => {
-      const newFolder = { files: newFiles.map(f => f.name), previews: newPreviews };
+      const newFolder = {
+        files: newFiles.map((f) => f.name),
+        previews: newPreviews,
+      };
       switch (type) {
         case "iosAppIcons":
           setIosAppIcons(newFolder);
@@ -669,15 +713,17 @@ const Home: React.FC = () => {
         case "androidRes":
           setAndroidRes(newFolder);
           break;
-        case "googleServices":
-          setGoogleServices(newFolder);
-          break;
       }
     });
   };
 
   const handleFileChange = (
-    type: "iosAppIcons" | "iosSplash" | "iosITunes" | "androidRes" | "googleServices",
+    type:
+      | "iosITunes"
+      | "googleServices"
+      | "iosAppIcons"
+      | "iosSplash"
+      | "androidRes",
     files: FileList
   ) => {
     const newFiles = Array.from(files);
@@ -724,7 +770,12 @@ const Home: React.FC = () => {
   };
 
   const handleRemoveFile = (
-    type: "iosAppIcons" | "iosSplash" | "iosITunes" | "androidRes" | "googleServices",
+    type:
+      | "iosAppIcons"
+      | "iosSplash"
+      | "iosITunes"
+      | "androidRes"
+      | "googleServices",
     fileName: string
   ) => {
     const updateFolder = (prev: AssetFolder) => ({
@@ -760,7 +811,9 @@ const Home: React.FC = () => {
       "restaurantData",
       JSON.stringify({
         refId: selectedRestaurantRefId,
-        name: restaurants.find(r => r.refId === selectedRestaurantRefId)?.name || "",
+        name:
+          restaurants.find((r) => r.refId === selectedRestaurantRefId)?.name ||
+          "",
         config,
       })
     );
@@ -867,7 +920,7 @@ const Home: React.FC = () => {
               </button>
             </div>
           </section>
-          
+
           {selectedRestaurantRefId && (
             <>
               <section className="p-6">
@@ -981,13 +1034,17 @@ const Home: React.FC = () => {
                         onClick={handleEnvironmentToggle}
                         className={cn(
                           "w-10 h-6 bg-gray-200 rounded-full cursor-pointer transition-colors",
-                          config.environment === "live" ? "bg-green-500" : "bg-gray-200"
+                          config.environment === "live"
+                            ? "bg-green-500"
+                            : "bg-gray-200"
                         )}
                       >
                         <div
                           className={cn(
                             "w-4 h-4 bg-white rounded-full absolute top-1 transition-transform",
-                            config.environment === "live" ? "translate-x-5" : "translate-x-1"
+                            config.environment === "live"
+                              ? "translate-x-5"
+                              : "translate-x-1"
                           )}
                         />
                       </div>
@@ -1081,53 +1138,95 @@ const Home: React.FC = () => {
                 </div>
               </section>
               <section className="p-6">
-                <h2 className="text-lg font-medium text-gray-900 mb-4">Assets</h2>
-                <div className="space-y-6">
-                  <AssetUploader
-                    title="iOS App Icons"
-                    name="iosAppIcons"
-                    folder={iosAppIcons}
-                    onFolderChange={(files) => handleFolderChange("iosAppIcons", files)}
-                    onFileChange={(files) => handleFileChange("iosAppIcons", files)}
-                    onRemoveFile={(fileName) => handleRemoveFile("iosAppIcons", fileName)}
-                  />
-                  <AssetUploader
-                    title="iOS Splash Screens"
-                    name="iosSplash"
-                    folder={iosSplash}
-                    onFolderChange={(files) => handleFolderChange("iosSplash", files)}
-                    onFileChange={(files) => handleFileChange("iosSplash", files)}
-                    onRemoveFile={(fileName) => handleRemoveFile("iosSplash", fileName)}
-                  />
-                  <AssetUploader
-                    title="iOS iTunes Artwork"
-                    name="iosITunes"
-                    folder={iosITunes}
-                    onFileChange={(files) => handleFileChange("iosITunes", files)}
-                    onRemoveFile={(fileName) => handleRemoveFile("iosITunes", fileName)}
-                  />
-                  <AssetUploader
-                    title="Android Resources"
-                    name="androidRes"
-                    folder={androidRes}
-                    onFolderChange={(files) => handleFolderChange("androidRes", files)}
-                    onFileChange={(files) => handleFileChange("androidRes", files)}
-                    onRemoveFile={(fileName) => handleRemoveFile("androidRes", fileName)}
-                  />
-                  <AssetUploader
-                    title="Google Services JSON"
-                    name="googleServices"
-                    folder={googleServices}
-                    onFileChange={(files) => handleFileChange("googleServices", files)}
-                    onRemoveFile={(fileName) => handleRemoveFile("googleServices", fileName)}
-                    multiple={false}
-                    accept=".json"
-                  />
+                <h2 className="text-lg font-medium text-gray-900 mb-4">
+                  Assets
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* iOS Assets */}
+                  <div className="space-y-6">
+                    <h3 className="text-md font-semibold text-gray-800 mb-2">
+                      iOS Assets
+                    </h3>
+                    <AssetUploader
+                      title="App Icons"
+                      name="iosAppIcons"
+                      folder={iosAppIcons}
+                      onFolderChange={(files) =>
+                        handleFolderChange("iosAppIcons", files)
+                      }
+                      onFileChange={(files) =>
+                        handleFileChange("iosAppIcons", files)
+                      }
+                      onRemoveFile={(fileName) =>
+                        handleRemoveFile("iosAppIcons", fileName)
+                      }
+                    />
+                    <AssetUploader
+                      title="Splash Screens"
+                      name="iosSplash"
+                      folder={iosSplash}
+                      onFolderChange={(files) =>
+                        handleFolderChange("iosSplash", files)
+                      }
+                      onFileChange={(files) =>
+                        handleFileChange("iosSplash", files)
+                      }
+                      onRemoveFile={(fileName) =>
+                        handleRemoveFile("iosSplash", fileName)
+                      }
+                    />
+                    <AssetUploader
+                      title="iTunes Artwork"
+                      name="iosITunes"
+                      folder={iosITunes}
+                      onFileChange={(files) =>
+                        handleFileChange("iosITunes", files)
+                      }
+                      onRemoveFile={(fileName) =>
+                        handleRemoveFile("iosITunes", fileName)
+                      }
+                    />
+                  </div>
+                  {/* Android Assets */}
+                  <div className="space-y-6">
+                    <h3 className="text-md font-semibold text-gray-800 mb-2">
+                      Android Assets
+                    </h3>
+                    <AssetUploader
+                      title="Resources"
+                      name="androidRes"
+                      folder={androidRes}
+                      onFolderChange={(files) =>
+                        handleFolderChange("androidRes", files)
+                      }
+                      onFileChange={(files) =>
+                        handleFileChange("androidRes", files)
+                      }
+                      onRemoveFile={(fileName) =>
+                        handleRemoveFile("androidRes", fileName)
+                      }
+                    />
+                    <AssetUploader
+                      title="Google Services JSON"
+                      name="googleServices"
+                      folder={googleServices}
+                      onFileChange={(files) =>
+                        handleFileChange("googleServices", files)
+                      }
+                      onRemoveFile={(fileName) =>
+                        handleRemoveFile("googleServices", fileName)
+                      }
+                      multiple={false}
+                      accept=".json"
+                    />
+                  </div>
                 </div>
               </section>
               <section className="p-6">
                 {actionData?.error && submissionStatus === "error" && (
-                  <p className="text-red-500 text-sm mb-4">{actionData.error}</p>
+                  <p className="text-red-500 text-sm mb-4">
+                    {actionData.error}
+                  </p>
                 )}
                 <div className="flex justify-end">
                   <button
@@ -1139,16 +1238,21 @@ const Home: React.FC = () => {
                       "disabled:bg-gray-400 disabled:cursor-not-allowed"
                     )}
                   >
-                    {navigation.state === "submitting" ? "Generating..." : "Generate App"}
+                    {navigation.state === "submitting"
+                      ? "Generating..."
+                      : "Generate App"}
                   </button>
                 </div>
               </section>
             </>
           )}
-          
+
           {!selectedRestaurantRefId && (
             <section className="p-6 text-center text-gray-600">
-              <p>Please select a restaurant or add a new one to configure settings and assets.</p>
+              <p>
+                Please select a restaurant or add a new one to configure
+                settings and assets.
+              </p>
             </section>
           )}
         </Form>
